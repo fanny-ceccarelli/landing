@@ -1,0 +1,30 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|Fira+Code|Lora|Montserrat|Poppins|Quicksand|Roboto&display=swap" rel="stylesheet");
+
+/* Importing all component files */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+/* General style rules for fonts and colors */
+body{
+	font-family: lora, sans-serif;
+	background-color: rgb(240,240,240);
+	font size: 18px;
+	margin: 0px;
+}
+
+h1 {
+	font-family: Cinzel, sans-serif;
+}
+
+
+h2, h3 {
+	font-family: Roboto, sans-serif;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
